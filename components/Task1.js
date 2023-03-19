@@ -1,4 +1,7 @@
-import Builder from "./builder/Builder"
+import MainBuilder from "./builder/Builder"
+
+
+
 
 export default function Task1(props) {
 
@@ -91,8 +94,8 @@ export default function Task1(props) {
       display: 'flex',
       flexDirection: 'column'
    }}>
-      <Builder config={Builder1} />
-      <Builder config={Builder2} />
-      <Builder config={Builder3} />
+      <MainBuilder config={Builder1} num={1} />
+      <MainBuilder config={Builder2} num={2} />
+      <MainBuilder config={Builder3} num={3} />
    </div>
 }

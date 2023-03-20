@@ -4,7 +4,7 @@
   "private": true,
   "main": "task-2-api.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev && nodemon ./pages/api/task-2-api",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
